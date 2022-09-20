@@ -8,6 +8,11 @@
     font-size: 1.4rem;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -69,11 +74,21 @@ body{
 
 /* Utility */
 
+/* Inizio Header */
+
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     color: white;
     padding: 2rem 0;
+}
+
+header li:hover{
+    text-shadow: 0 0 6px lightblue;
+}
+
+header ul{
+    cursor: pointer;
 }
 
 a > img{
@@ -100,6 +115,11 @@ p {
     border-radius: 30px;
     border: none;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px lightblue;
 }
 
 .browser{
@@ -116,6 +136,10 @@ p {
 .btn-box{
     padding: 2.5rem 0 3rem 0;
 }
+
+/* Fine Header */
+
+/* Inizio Main */
 
 .section1-right > img{
     width: 50rem;
@@ -137,6 +161,7 @@ p {
 .bg-lgray{
     background-color: #F6F6F6;
 }
+
 
 .section-top > h2{
     font-size: 3rem; 
@@ -161,9 +186,17 @@ p {
     width: 70rem;
 }
 
+/* Fine Main */
+
+/* Inizio Footer */
+
 footer{
     background-color: #23272A;
     color: white;
+}
+
+footer a:hover{
+    text-shadow: 0 0 6px lightblue;
 }
 
 .contenitore-footer{
@@ -192,6 +225,7 @@ footer h2{
 
 .blue{
     color: #7289DA;
+    font-weight: bold;
 }
 
 .footer-btm{
@@ -207,6 +241,8 @@ footer h2{
 .footer-logo > img{
     width: 10rem;
 }
+
+/* Fine Footer */
 
 
 
