@@ -17,6 +17,14 @@ body{
     display: flex;
 }
 
+.flex-grow1{
+    flex-grow: 1;
+}
+
+.flex-grow2{
+    flex-grow: 2;
+}
+
 .flex-basis-38{
     flex-basis: 38%;
 }
@@ -35,10 +43,6 @@ body{
 
 .justify-center{
     justify-content: center;
-}
-
-.justify-space-evenly{
-    justify-content: space-evenly;
 }
 
 .contenitore80{
@@ -157,26 +161,52 @@ p {
     width: 70rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sfondo{
-    background-color: yellowgreen;
-}
-
 footer{
-    background-color: aquamarine;
+    background-color: #23272A;
+    color: white;
 }
+
+.contenitore-footer{
+    padding: 4rem 0;
+}
+
+footer li{
+    line-height: 2.5rem;
+}
+
+footer i{
+    margin: 0 0.5rem;
+}
+
+footer h2{
+    font-size: 3rem;
+}
+
+.lingua{
+    margin-top: 2rem;
+}
+
+.lingua img{
+    width: 1.5rem;
+}
+
+.blue{
+    color: #7289DA;
+}
+
+.footer-btm{
+    border-top: 2px solid #7289DA;
+    padding: 3rem 0 6rem 0;
+}
+
+.btn-blue{
+    background-color: #8EA1E1;
+    color: white;
+}
+
+.footer-logo > img{
+    width: 10rem;
+}
+
+
+
