@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,18 +8,21 @@
     font-size: 1.4rem;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /* Utility */
 
 .flex{
     display: flex;
 }
 
-.flex-basis-48{
-    flex-basis: 48%;
+.flex-basis-38{
+    flex-basis: 38%;
 }
 
-.flex-basis-50{
-    flex-basis: 50%;
+.flex-basis-60{
+    flex-basis: 60%;
 }
 
 .flex-dir-column{
@@ -41,6 +46,11 @@
     margin: auto;
 }
 
+.contenitore80-section{
+    width: 80%;
+    margin: 4rem auto;
+}
+
 .align-items-c{
     align-items: center;
 }
@@ -49,7 +59,9 @@
     gap: 2rem;
 }
 
-
+.txt-center{
+    text-align: center;
+}
 
 /* Utility */
 
@@ -63,7 +75,6 @@ header{
 a > img{
     width: 10rem;
 }
-
 
 .box-titolo{
     width: 50%;
@@ -102,50 +113,65 @@ p {
     padding: 2.5rem 0 3rem 0;
 }
 
-
-
-main{
-    background-color: bisque;
+.section1-right > img{
+    width: 50rem;
 }
 
-.contenitore1{
-    width: 80%;
-    margin: auto;
-    background-color: blueviolet;
+.section1-left{
+    padding-top: 3rem;
 }
 
-.contenitore2{
-    background-color: red;
-    width: 80%;
-    margin: auto;
+.section1-left > h2{
+    font-size: 3rem;
 }
 
-.contenitore3{
-    background-color: coral;
-    width: 80%;
-    margin: auto;
+.section1-left > p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
-.contenitore4{
-    background-color: pink;
-    width: 80%;
-    margin: auto;
-    text-align: center;
+.bg-lgray{
+    background-color: #F6F6F6;
 }
 
-.contenitore5{
-    background-color: lightgray;
-    width: 80%;
-    margin: auto;
+.section-top > h2{
+    font-size: 3rem; 
+    margin-bottom: 2rem;
 }
 
-.col1{
-    background-color: aqua;
+.section-btm > p{
+    font-size: 1.5rem;
 }
 
-.col2{
-    background-color: aliceblue;
+.section-btm > h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
+
+.section-btm > button{
+    background-color: #8EA1E1;
+    color: white;
+}
+
+.section-center > img{
+    width: 70rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .sfondo{
     background-color: yellowgreen;
